@@ -19,7 +19,3 @@ class Solution:
                     length += 1
                 longest = max(length, longest)
         return longest
-
-
-x = Solution()
-x.longestConsecutive([2,20,4,10,3,4,5])
